@@ -1,4 +1,4 @@
-## skipping (100pt / 737 solves)
+## skipping (100pt / 737 solves) [beginner]
 > `/flag`へのアクセスは拒否されます。curlなどを用いて工夫してアクセスして下さい。 `curl [問題鯖のURL]`
 
 ソースコードが与えられている。  

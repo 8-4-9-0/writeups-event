@@ -1,4 +1,4 @@
-## D-compile (100pt / 335 solves)
+## D-compile (100pt / 335 solves) [easy]
 > C言語の次はこれ!
 > 
 > This is the next trending programming language!

@@ -1,4 +1,4 @@
-## 01-Translator (100pt / 280 solves)
+## 01-Translator (100pt / 280 solves) [easy]
 > バイナリ列は読めない？じゃあ翻訳してあげるよ！  
 > `nc [問題鯖のホスト名] [ポート番号]`
 

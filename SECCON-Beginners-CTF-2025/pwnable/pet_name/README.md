@@ -1,4 +1,4 @@
-## pet_name (100pt / 586 solves)
+## pet_name (100pt / 586 solves) [beginner]
 > ペットに名前を付けましょう。ちなみにフラグは/home/pwn/flag.txtに書いてあるみたいです。
 >
 > nc [問題鯖のホスト名] [ポート番号]

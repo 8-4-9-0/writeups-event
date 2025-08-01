@@ -1,4 +1,4 @@
-## CrazyLazyProgram2 (100pt / 468 solves)
+## CrazyLazyProgram2 (100pt / 468 solves) [easy]
 > コーディングが面倒だったので機械語で作ってみました
 
 ~機械語で作る方が面倒そうなのですが~  

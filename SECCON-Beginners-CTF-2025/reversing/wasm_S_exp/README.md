@@ -1,4 +1,4 @@
-## wasm_S_exp (100pt / 330 solves)
+## wasm_S_exp (100pt / 330 solves) [medium]
 > フラグをチェックしてくれるプログラム
 
 次に示すWebAssemblyコードが与えられる。（長いため少し省略している）

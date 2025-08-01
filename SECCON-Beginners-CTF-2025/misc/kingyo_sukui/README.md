@@ -1,4 +1,4 @@
-## kingyo_sukui (100pt / 644 solves)
+## kingyo_sukui (100pt / 644 solves) [beginner]
 > scooping! [問題鯖のURL]
 
 アクセスしてみると、次の画像のようなWebページが表示された。

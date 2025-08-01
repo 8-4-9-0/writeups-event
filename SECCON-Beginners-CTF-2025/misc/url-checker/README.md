@@ -1,4 +1,4 @@
-## url-checker (100pt / 606 solves)
+## url-checker (100pt / 606 solves) [easy]
 > 有効なURLを作れますか？  
 > nc [問題鯖のホスト名] [ポート番号]
 
