@@ -44,7 +44,8 @@ except Exception as e:
 1. `hostname`が存在し、`example.com`と完全一致はしないが、`example.com`から始まる
 
 この2つが満たされるとき、フラグが表示される。  
-`hostname` = `netloc`からホスト名単体を抜き出した部分 なので、条件1.を成立させながら2.も成立させる方法がどうにも思い浮かばない。そこでChatGPTに聞いてみたところ、`https://example.com:80@exapmle.com.evil.com`なるURLを提案された。
+「`hostname` = `netloc`からホスト名単体を抜き出した部分」だと思っていたので、条件1.を成立させながら2.も成立させる方法がどうにも思い浮かばない。そこでChatGPTに聞いてみたところ、`https://example.com:80@exapmle.com.evil.com`なるURLを提案された。  
+後で調べてみたところ、このURLのフォーマットはBasic認証の認証情報を渡す場合に使うものであるとのこと。そして提案されたURLをそのまま渡したら通った。
 
 ```
 $ nc [hostname] [port]
