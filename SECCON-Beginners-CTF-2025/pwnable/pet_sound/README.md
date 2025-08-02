@@ -1,4 +1,4 @@
-## pet_sound (100pt / 410 solves) [easu]
+## pet_sound (100pt / 410 solves) [easy]
 > ペットに鳴き声を教えましょう。
 >
 > nc [問題鯖のホスト名] [ポート番号]
