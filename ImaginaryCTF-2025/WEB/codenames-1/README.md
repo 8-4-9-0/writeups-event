@@ -8,11 +8,11 @@
 
 URLにアクセスすると、次のようなサイトが現れる。
 
-<img src="images/image01.png" width="60%"></img>
+<img src="images/image01.png" width="50%"></img>
 
 サインアップするとロビーに移動する。
 
-<img src="images/image02.png" width="60%"></img>
+<img src="images/image02.png" width="100%"></img>
 
 ただただページを眺めているだけでは方針も浮かんでこないので、与えられているソースコード(`app.py`)を見る。以下に気になった箇所だけを抜き出して載せる。
 
@@ -60,11 +60,11 @@ def create_game():
 
 target URLにアクセスするとこんな画面が表示される。
 
-<img src="images/image03.png" width="60%"></img>
+<img src="images/image03.png" width="40%"></img>
 
 Add Botで対戦相手をBotにし、ゲームを開始するとフラグが一面に表示されている。
 
-<img src="images/image04.png" width="60%"></img>
+<img src="images/image04.png" width="80%"></img>
 
 単純なドラッグでのコピペは出来ないようになっているが、`console.log(board)`等で中身を持ってこられる。
 
