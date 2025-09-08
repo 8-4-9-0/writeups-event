@@ -47,7 +47,7 @@ def create_game():
 ...
 ```
 
-いかにもフラグを取るのに使えそうなのは`wl_path = os.path.join(WORDS_DIR, f"{language}.txt")`の部分で、通常`language`はCreate Gameボタン横のコンボボックスで選択するのだが、正規の手段を経ることなく細工した値をPOSTすればディレクトリトラバーサルにより`/flag.txt`を開かせることが出来そうである。ただし直前で`if not language or '.' in language:`とあるように`.`は使えなくされているため、`../../../../flag`みたいな値を送っても効かない。そこで`os.path.join()`自体に脆弱性等がないか調べてみると、「絶対パスを含む引数よりも前の引数はすべて無視される」という仕様があるらしい。これを悪用する。つまり`WORDS_DIR`がどのような値であろうと、`os.path.join(WORDS_DIR, f'/flag.txt')`とすれば`/flag.txt`を指すようになるのである。これにより`/flag.txt`を読み込ませることが出来そうだ。
+いかにもフラグを取るのに使えそうなのは`wl_path = os.path.join(WORDS_DIR, f"{language}.txt")`の部分で、通常`language`はCreate Gameボタン横のコンボボックスで選択するのだが、正規の手段を経ることなく細工した値をPOSTすればディレクトリトラバーサルにより`/flag.txt`を開かせることが出来そうである。ただし直前で`if not language or '.' in language:`とあるように`.`は使えなくされているため、`../../../../flag`みたいな値を送っても効かない。そこで`os.path.join()`自体に脆弱性等がないか調べてみると、「絶対パスを含む引数よりも前の引数はすべて無視される」という仕様があるらしい。これを悪用する。つまり`WORDS_DIR`がどのような値であろうと、`os.path.join(WORDS_DIR, f'/flag.txt')`とすれば`/flag.txt`を指すようになるのである。これにより`/flag.txt`を読み込ませることが出来そうだ。  
 何をすべきかは決まったのでひとまずPOSTしてみる。「Create Game」ボタンを押すことで送信される正規のPOSTリクエストをDevtoolのNetworkタブからCopy as cURLとかでパクってきて、`--data-raw 'language=[言語名]'`のところを`--data-raw 'language=/flag'`にして送信。すると次のレスポンスが返ってくる。
 
 ```html
