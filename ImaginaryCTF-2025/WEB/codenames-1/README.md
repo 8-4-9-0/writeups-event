@@ -62,7 +62,7 @@ target URLにアクセスするとこんな画面が表示される。
 
 <img src="images/image03.png" width="40%"></img>
 
-Add Botで対戦相手をBotにし、ゲームを開始するとフラグが一面に表示されている。
+Add Botで対戦相手をBotにすると自動的にゲームが開始され、ゲーム画面に遷移するとフラグが一面に表示されていることがわかる。
 
 <img src="images/image04.png" width="80%"></img>
 
