@@ -8,7 +8,7 @@
 回答を送信すると......
 
 <img src="images/image01.png" width="60%"></img>
-<img src="images/image02.png" width="60%"></img>
+<img src="images/image02.png" width="80%"></img>
 
 楽しいCTFでした！
 
