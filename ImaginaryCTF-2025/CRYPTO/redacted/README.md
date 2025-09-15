@@ -36,7 +36,7 @@ data = data.split(delimRegex);
 
 <img src="images/image04.png" width="60%"></img>
 
-`ictf{x`から、もしかして`ictf{xor_is_bad`...`encryption}`みたいな感じなのではないか？と予想。（あと、`en×syption`は`encryption`っぽい）  
+`ictf{x`から、もしかして`ictf{xor_is_bad`...`encryption}`みたいな感じなのではないか？と予想。
 ひとまず`ictf{xor`に対応する鍵を求めると`0c0fba0dba0d0e0c`だと分かったので、これでXORしてみる。すると全文復号できていた。
 
 <img src="images/image05.png" width="80%"></img>
