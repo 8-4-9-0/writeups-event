@@ -60,7 +60,7 @@
 
 まずは`matsuki`のフィンガープリントを探す。これは`systemB_fingerprint.csv`をExcelやGoogle Spreadsheetに読み込ませて検索すれば`04dc9`と分かる。
 
-<img src="images/image01.png" width="60%"></img>
+<img src="images/image01.PNG" width="60%"></img>
 
 次にパスワード候補を抽出する。上の「Python の標準ライブラリを使った解法例」を基にしつつ、次のようなスクリプトを書いた。
 ```python
