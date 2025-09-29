@@ -6,34 +6,34 @@
 
 <details><summary>解答できた問題一覧</summary>
 
-()内は解答できなかった問題。
+問題タイトルが()で囲まれているものは解答できなかった問題。
 - Welcome
-  - Welcome
+  - Welcome [★☆☆☆]
 - Pentest
-  - HiddenService
-  - (Shell4Solr)
-  - (Center)
-  - (Enumeration)
+  - HiddenService [★☆☆☆]
+  - (Shell4Solr) [★★☆☆]
+  - (Center) [★★★☆]
+  - (Enumeration) [★★★★]
 - Web Exploitation
-  - Secure Web Company
-  - (Timecard)
-  - (TimeFlies)
-  - (Cereal Blog)
+  - Secure Web Company [★☆☆☆]
+  - (Timecard) [★★☆☆]
+  - (TimeFlies) [★★★☆]
+  - (Cereal Blog) [★★★★]
 - Malware Analysis
-  - Downloader
-  - Acrobatics
-  - CustomEncryptor
-  - (Hidden)
+  - Downloader [★☆☆☆]
+  - Acrobatics [★★☆☆]
+  - CustomEncryptor [★★★☆]
+  - (Hidden) [★★★★]
 - Binary Exploitation
-  - Abnormal
-  - Jump
-  - Here are GOT and PLT
-  - (all rust and no safe)
+  - Abnormal [★☆☆☆]
+  - Jump [★★☆☆]
+  - Here are GOT and PLT [★★★☆]
+  - (all rust and no safe) [★★★★]
 - Misc
-  - Bellaso
-  - Hamburger
-  - Lamp
-  - Salted Hash Hunt
+  - Bellaso [★★☆☆]
+  - Hamburger [★★☆☆]
+  - Lamp [★★☆☆]
+  - Salted Hash Hunt [★★☆☆]
 </details>
 
 セキュリティ・キャンプ中に他の参加者の方から教えてもらってこのイベントの存在を知りました。最初は中～上級者向けの大会なのかな？と思っていましたが、蓋を開けてみると初心者に優しい問題も取り揃えられており、やっていて非常に楽しかったです。特にPentestジャンルの問題は、解答こそほとんどできなかったもののとても勉強になりました。
