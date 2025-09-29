@@ -154,7 +154,7 @@ $ python3 solver.py
 Password found: JohnInTheBox8657, hash: d94f0bb566b42915529e95d65ebc36b83dcd19cedefdae1fdcdafdd051672a90
 ```
 
-念のためにSHA1フィンガープリントも計算する。先頭5桁が`04dc9`であり、しっかり一致しているので、間違いなくこれが`matsuki`の平文パスワードであることがことが確認できた。
+念のためにSHA1フィンガープリントも計算する。先頭5桁が`04dc9`であり、しっかり一致しているので、間違いなくこれが`matsuki`の平文パスワードであることが確認できた。
 ```
 # echo -n "JohnInTheBox8657"  | openssl sha1
 SHA1(stdin)= 04dc965c772d995f7f03ee972fe76efdfeaa2dbe
