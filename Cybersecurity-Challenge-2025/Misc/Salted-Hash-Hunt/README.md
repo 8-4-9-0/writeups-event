@@ -56,7 +56,7 @@
 > hash_hex = hash_bytes.hex()
 > ```
 
-一見難しそうに見えるが、ヒントの手順に従えばOK。
+一見難しそうに見えるが、ヒントの手順にそのまま従えばOK。
 
 まずは`matsuki`のフィンガープリントを探す。これは`systemB_fingerprint.csv`をExcelやGoogle Spreadsheetに読み込ませて検索すれば`04dc9`と分かる。
 
