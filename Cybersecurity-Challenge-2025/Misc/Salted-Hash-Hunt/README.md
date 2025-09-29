@@ -150,7 +150,7 @@ while True:
 `systemA_auth.csv`の各データは`iter`について降順で並べられているので、低反復回数のエントリから先に検証するためには、配列`auth_info`の末尾から検証していけばよい。（Pythonでは負のインデックスにより配列の末尾のデータを簡単に取り出すことができる）  
 このスクリプトを実行すると、数秒ほどでパスワードが特定できた。
 ```
-$ python3 cracker.py 
+$ python3 solver.py 
 Password found: JohnInTheBox8657, hash: d94f0bb566b42915529e95d65ebc36b83dcd19cedefdae1fdcdafdd051672a90
 ```
 
