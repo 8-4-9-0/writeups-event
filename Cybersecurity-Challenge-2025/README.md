@@ -39,5 +39,5 @@
 セキュリティ・キャンプ中に他の参加者の方から教えてもらってこのイベントの存在を知りました。最初は中～上級者向けの大会なのかな？と思っていましたが、蓋を開けてみると初心者に優しい問題も取り揃えられており、やっていて非常に楽しかったです。特にPentestジャンルの問題は、解答こそほとんどできなかったもののとても勉強になりました。
 
 ## 作問者writeupまとめ
-https://github.com/nflabs/FFRI-NFLabs-Cybersecurity-Challenge-2025-Public
+https://github.com/nflabs/FFRI-NFLabs-Cybersecurity-Challenge-2025-Public  
 https://github.com/FFRI/FFRI-NFLabs-Cybersecurity-Challenge-2025-Public （↑のフォーク、内容は同じ）
